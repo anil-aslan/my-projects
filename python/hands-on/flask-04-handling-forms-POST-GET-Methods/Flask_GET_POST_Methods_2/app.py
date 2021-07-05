@@ -27,5 +27,9 @@ def calculate():
         return render_template("result.html")
 # Add a statement to run the Flask application which can be debugged.
 if __name__=="__main__" :
+<<<<<<< HEAD
     #app.run(debug=True)
     app.run(host="0.0.0.0", port = 80)
+=======
+    app.run(host="0.0.0.0", port = 80)
+>>>>>>> d594d906be3e87fd4dbc7d20a29ab0a365b7d3a6
